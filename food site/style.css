@@ -1,0 +1,100 @@
+/*
+font-family: 'Qwigley', cursive;
+font-family: 'Source Sans 3', sans-serif;*/
+
+:root {
+    /*nav bar*/
+    --orange-background: #FFB30E;
+    --light-orange-background: #FDBE35;
+    --deliver--font-background: #424242;
+    --yellow-background: #FFAC0D;
+    /*poster*/
+    --poster-p-font-background: #504F4F;
+    --delivery-bike-background: #F17228;
+    --pickup-bascut-background: #757575;
+    --postermail-location-background: #FF7474;
+    --postermail-background: #9E9E9E;
+    --findjob-poster-background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    /*how dose it work*/
+    --30min--background: #F17228;
+    --discount-live-quick-background: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    /*search by food*/
+    --searchByFood-background: #212121;
+    --slide-background: #F6F5EE;
+
+    /*proceed btn*/
+    --order-background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    /*footer*/
+    --footer-background: #090D12;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+
+.poster1 {
+    background-color: #FDBE35;
+    height: 630px;
+    width: auto;
+    display: flex;
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Qwigley', cursive !important;
+    color: #FFB30E;
+}
+
+.sublogo {
+    font-family: 'Qwigley', cursive !important;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.search1 {
+    height: 48px;
+    width: 272px;
+    font-weight: bold;
+}
+
+#s1 {
+    padding-left: 10px;
+    color: #424242;
+    border: 0px;
+}
+
+#b1 {
+    font-weight: bold;
+    color: #FFAC0D;
+    border: 1px solid #FFAC0D;
+}
+
+
+
+.card-group {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mint {
+    color: #F17228;
+
+}
+
+.how {
+    color: #F17228;
+    font-weight: 700;
+    text-align: center;
+}
+
+.howbox {
+    margin-left: 10%;
+    padding-left: 10%;
+}
+.pop-item1{
+    background: #111;
+}
